@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0px
+}
+.logo{
+    width: 50px;
+}
+
+nav{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orelega One', cursive;
+    font-size: 40px;
+    color:gray;
+    
+}
+
+body{
+    background-image: url("https://wallpapercave.com/wp/quYHEGK.jpg");
+    background-size: cover;
+}
+.container{
+    max-width: 955px;
+    height: 60vh;
+    margin: auto;
+    border: 2px solid black;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+
+
+}
+
+.message{
+   
+    
+    /* color: wheat; */
+    border: 2px solid black;
+    border-radius: 20px;
+    /* max-width: 200px; */
+    width: 24%;
+    background-color: beige;
+    padding: 10px;
+    margin: 10px;
+
+    
+}
+
+.left{
+    float: left;
+    clear: both;
+
+}
+.right{
+    float: right;
+    clear: both;
+
+}
+
+#send-container{
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+#mesageinp{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 5vh;
+    width: 70vw;
+    margin-left: 20px;
+}
+.btn{
+    background-image: url("/button.png");
+    /* image */
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 4vw;
+    height: 5vh;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
+
